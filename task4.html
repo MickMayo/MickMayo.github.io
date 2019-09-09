@@ -14,5 +14,69 @@
 <h4 style="text-align: center;"><em>By Michael Mayo</em></h4>
 <h3 style="text-align: center;"><span style="color: #339966;">PROJECT IDEA</span></h3>
 <p>&nbsp;</p>
+<p><strong><u>Project Idea</u></strong></p>
+<p><em>Total Environment Monitoring &amp; Control System</em></p>
+<p><strong>Overview</strong></p>
+<p>The system would utilise "Arduino / RaspberryPI" or the like, to electronically monitor &amp; control environments within buildings and homes. To achieve this a central processing unit would be connected using LAN's and WIFI to multiple sensors and relays communicating / gathering data and controlling outputs which would integrate with other devices, such as air conditioners (HVAC), lighting controllers, alarm, duress, CCTV and access control systems etc. This would allow the development of "smart areas" which in turn could deliver improvements in energy efficiency, security, productivity and safety. It should also be connected to a P.C. and software for programming, monitoring &amp; control either locally or remotely.</p>
+<p>Whilst there are many systems in use which perform these tasks individually, there are to my knowledge none which attempt to take a holistic approach to the integration and control of entire buildings, and provide a single interface for doing so.</p>
+<p><strong>Motivation</strong></p>
+<p><em>'"As for the number of buildings in Australia, Paull says that at present nobody knows an exact figure, but that will soon change. &ldquo;We don't know how many building there are in the country,&rdquo; he said. &ldquo;We think there's going to be somewhere between 15 million and 20 million."</em></p>
+<p><em>How many buildings are there in Australia? While early estimates have put the figure at around 15 million structures, a novel mapping project using machine learning suggests it might be as much as 20 million- nearly one building for each of Australia&rsquo;s 23 million citizens.</em></p>
+<p><em>Very soon we will know an exact figure for the first time, because PSMA Australia is on track to deliver a nationwide accurate dataset of building attributes over the entirety of the Australian continent by the start of 2018. Provider of foundation data sets including the G-NAF addressing dataset, PSMA Australia, are now deep into their most ambitious undertaking yet, Geoscape.'</em></p>
+<p><em>Source: (PSMA&rsquo;s CEO, Dan Paull article by Anthony Wallace 12, April, 2017)</em></p>
+<p><em>&lt; <a href="https://www.spatialsource.com.au/gis-data/many-buildings-australia-geoscape-counting">https://www.spatialsource.com.au/gis-data/many-buildings-australia-geoscape-counting</a>&gt;</em></p>
+<p>With this many buildings in our country, the need to make them more efficient and productive is ever increasing. I beleive a project such as the one I have outlined, can deliver on this challenge.</p>
+<p>Whilst traditional methods of securing, monitoring and controlling critical infrastructure ie: Locally based stand-alone systems, in addition to human maintenance workers, guards and security personal which will always have a role in this, I feel that automation, integration and A.I. will, as we move into the future take over the bulk of this workload.</p>
+<p><strong>Description</strong></p>
+<p>This project will begin as a relativily small device but will have the ability to be expanded both in processing power and inputs / outputs as the need arises, allowing it to be deployed in single rooms initially and entire buildings eventually. Further these buildings would be tied together and networked to a single control room, ultimately allowing an entire cities buildings to be centrally monitored / controlled, perhaps even by an Artificial Intelligence.</p>
+<p>Initially it will collect a small amount of data in relation to temperature, humidity, lighting levels &amp; motion. This data will then be used to make adjustments to the environment by wiring output relays to devices such as the air conditioners, lighting controllers and power outlets. Giving it the ability to adjust room temperature, lighting and turn power outlets on and off.</p>
+<p>It should also be able to generate reports on a daily / hourly etc. basis, which could be used for determining how the room is being used, how often lights or other devices are being used and at what time.</p>
+<p>By gathering data and producing useable information from that data, improvements in energy efficiency will be possible. Further to this the data will be used to gain an oversight as to how well the space is being utilised, which will allow for improvements in design and the layout of modern workspaces.</p>
+<p>Motion sensors will allow the system to monitor when someone is present in the room, and in turn activate CCTV cameras and alter DVR recording frame rates etc. as required, reducing the amount of empty frames captured and making better use of the digital storage available, by only activating / recording when something is actually happening.</p>
+<p>The potential for expansion is limitless, incorporating CCTV's facial recognition systems to allow lights to be turned on/off or lifts/doors to be accessed by authorised persons simply by them entering the space is just one example.</p>
+<p><strong>Tools and Technologies</strong></p>
+<p><em>Hardware Requirements</em></p>
+<p><u>Arduino UNO kit consisting of the following;</u></p>
+<p>Ar1x Uno Development board</p>
+<p>3x Red LED</p>
+<p>3x Yellow LED</p>
+<p>3x Blue LED (Note the LEDs are transparent resin enclosed)</p>
+<p>5x 1k Resistor</p>
+<p>5x 10k Resistor</p>
+<p>8x 220 Ohm Resistor (Note resistors are 5 band coded)</p>
+<p>1x Large breadboard</p>
+<p>1x RBG LED Module (with inbuilt current limiting resistors)</p>
+<p>4x Micro Tactile Buttons</p>
+<p>1x Active Buzzer</p>
+<p>1x Passive Buzzer (Micro Speaker)</p>
+<p>1x IR Sensor</p>
+<p>1x Flame Sensor</p>
+<p>1x LM35 Temperature Sensor</p>
+<p>2x Tilt Sensor</p>
+<p>3x Photoresistor (Light De pendant Resistor)</p>
+<p>1x 74HC595N Shift Register</p>
+<p>1x 9V battery box (6xAA) (To power your projects when not plugged in to the computer)</p>
+<p>1x 50cm USB Cable</p>
+<p>1x 8x8 LED Matrix</p>
+<p>2x 7-Segment Displays</p>
+<p>1x 4 gang 7-Segment Display</p>
+<p>1x 30pcs Breadboard Wire</p>
+<p>1x IR Remoteduino UNO kit</p>
+<p><em>The above list of components was sourced from :</em></p>
+<p><a href="https://www.auselectronicsdirect.com.au/uno-starter-kit-for-arduino-projects">https://www.auselectronicsdirect.com.au/uno-starter-kit-for-arduino-projects</a></p>
+<p><em>In addition to the above which is available as a kit I will add the following;</em></p>
+<p>4 x BME280 Temperature/Humidity/Pressure sensor modules</p>
+<p>2 x ESP8266 WIFI Relay modules</p>
+<p>1 x WIFI Wireless Shield</p>
+<p><em>I estimate the above components to be a $200 initial outlay.</em></p>
+<p>In relation to software, I will use a combination of the "Arduino Web Editor" and the open source Java Based Arduino IDE software to program the system.</p>
+<p>Some hand tools will be required such as a soldering iron, screw drivers, wire cutters, multi-meter etc.</p>
+<p><strong>Skills Required</strong></p>
+<p>&nbsp;A basic understanding of electronics for example, how resistors are used to determine change in voltage, basic wiring techniques, use of earth and neutral/positive/negative voltages. In addition the ability to use a multi-meter for trouble shooting purposes.</p>
+<p>Ability to use the IDE software to develop the program. Since the software for this project already exists in open source form (JAVA), I see no initial need for additional base level programming. Though this may change as the project develops.</p>
+<p>Again I envisage no requirement for "special" hardware other than that which is readily available from many retail outlets.</p>
+<p>I possess all of the skills outlined above and can obtain the hardware / software required easily, thus I believe this project is feasible. I have not previously used the IDE, so this will require learning to use the software, however I do not believe this will be an issue, since there are many resources available to this end.</p>
+<p><strong>Outcome</strong></p>
+<p>In summary, if this project were to be successful the outcome would be a device with a small footprint, capable of sensing and altering an environment based on changes within that environment without human resources being required. This would free up those human resources to do other things. Further it would maximise efficiency in relation to power consumption, provide an increase in safety &amp; security along with making better use of existing devices &amp; technologies.&nbsp;</p>
 </body>
 </html>
